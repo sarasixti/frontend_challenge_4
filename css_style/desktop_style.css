@@ -1,0 +1,57 @@
+@import "basic.css";
+
+body {
+    /* BACKGROUND STYLE */
+    background-color: var(--darker-color);
+    background-image: url("../images/bg-desktop.png");
+    background-size: 100% 50%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    /* FLEXBOX RULES */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+
+    /* SIZE */
+    width: 98vw;
+    height: 97.7vh;
+}
+
+.container {
+    /* FLEXBOX RULES */
+    align-self: center;
+    justify-self: center;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+#fylo-div {
+    /* SIZE */
+    width: 100px;
+    height: 100px;
+    
+
+    /* STYLE */
+    background-color: var(--primary-color);
+
+    /* POSITION */
+    margin: 20px;
+}
+
+#percentage-div {
+    /* SIZE */
+    width: 300px;
+    height: 100px;
+    
+
+    /* STYLE */
+    background-color: var(--primary-color);
+
+    /* POSITION */
+    margin: 20px;
+}

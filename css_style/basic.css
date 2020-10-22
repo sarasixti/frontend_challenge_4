@@ -1,0 +1,14 @@
+:root {
+    /* COLOR PALETTE */
+    --primary-color: hsl(228, 56%, 26%);
+    --darker-color: hsl(229, 57%, 11%);
+
+    --text-primary-color: hsl(243, 100%, 93%);
+    --text-secondary-color: hsl(229, 7%, 55%);
+
+    /* FONT SIZE */
+    --font-size: 14px;
+
+    /* FONT-FAMILY */
+    --font-family: 'Raleway', sans-serif;
+}
